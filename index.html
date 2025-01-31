@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I miss you</title>
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- DaisyUl Link Here -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Link Here -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body>
+  <header class="w-100% bg-gradient-to-r from-[#FFFFFF]  to-[#EFEBE3]">
+    <nav>
+      <div class="navbar max-w-6xl mx-auto">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+            </div>
+            <a class="btn btn-ghost text-xl"><img src="./Assignment_03_Category_0002/c2-assets/logo-header.png" alt=""></a>
+          </div>
+         <!-- Navbar link Part -->
+         <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="">Product</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact us</a></li>
+          </ul>
+        </div>
+    <!-- Navbar Button Part -->
+        <div class="navbar-end space-x-5">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-cart-shopping"></i>  
+          <a class="btn  border-[#179800] bg-none text-lg">Login</a>
+          <a class="btn btn-accent border-none text-lg text-[#FFFFFF] bg-[#179800]">Register</a>
+        </div>
+      </div>
+   </nav>
+   <!-- Banner Section Part -->
+   <section class="max-w-6xl mx-auto  mt-16">
+    <div class="flex flex-col justify-center items-center text-center space-y-10">
+      <h2 class="lg:text-6xl font-extrabold text-[#414040] md:text-5xl sm:text-4xl">Freshness <span class="text-[#179800]">You Can<br>
+        Count</span> On,Prices You’ll Love!</h2>
+      <p class=" text-[#707070]">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered <br>every day! in some form, by injected humour.</p>
+      <img src="./Assignment_03_Category_0002/c2-assets/hero-vegetables.png" alt="">
+    </div>
+  </section>
+  
+  </header>
+  <main>
+    <!-- Services Card Section Start Here -->
+    <section class="max-w-6xl mx-auto mt-[140px] space-y-12">
+        <!-- Services Title Part -->
+        <h2 class="text-4xl font-semibold text-[#179800]">Services</h2>
+        <div class="grid xl:grid-cols-3 lg:grid-cols-2 gap-8 justify-center md:grid-cols-2 md:gap-8 sm:grid-cols-1 sm:gap-4">
+        <!-- card-one -->
+      <div class="card bg-base-100 w-96 shadow-xl bg-[#EFEBE3]">
+        <figure class="w-[150px] h-[150px] mx-28 mt-10 rounded-full bg-white">
+          <img
+            src="./Assignment_03_Category_0002/c2-assets/service.png"
+            alt="Service.png"
+            class="rounded-xl"/>
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">24/7 Services</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+      </div>
+      <!-- card-two -->
+      <div class="card bg-base-100 w-96 shadow-xl bg-[#EFEBE3]">
+        <figure class="w-[150px] h-[150px] mx-28 mt-10 rounded-full bg-white">
+          <img
+            src="./Assignment_03_Category_0002/c2-assets/delivery.png"
+            alt="Delivery.png"
+            class="rounded-xl"/>
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Fast Delivery</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+      </div>
+      <!-- card-three -->
+      <div class="card bg-base-100 w-96 shadow-xl bg-[#EFEBE3]">
+        <figure class="w-[150px] h-[150px] mx-28 mt-10 rounded-full bg-white">
+          <img
+            src="./Assignment_03_Category_0002/c2-assets/healthy.png"
+            alt="Healthy.png"
+            class="rounded-xl"/>
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Healthy Products</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- Services Card Section Start Here -->
+
+    <!-- Offer Card Section Start Here -->
+      <section class="max-w-6xl mx-auto mt-[140px] space-y-12 pb-56">
+        <!-- Offers Title Part -->
+          <h2 class="max-w-6xl mx-auto text-4xl font-semibold text-[#179800] mt-[90px]">Services</h2>  
+        <div class="max-w-6xl mx-auto h-96 mt-36 flex justify-between items-center flex-wrap space-y-4">
+        <!-- Offers Section One Start Here -->
+           <div class="w-[740px] h-[344px] bg-[#115414] rounded-3xl  flex justify-between items-center space-y-10 mt-4">
+              <div class="space-y-5 ml-8">
+                  <img src="./Assignment_03_Category_0002/c2-assets/dawat-logo.png" alt="dawat-logo.png">
+                  <button class="btn btn-primary bg-[#63B76D] px-16">Cook Exotic Dishes</button>
+                  <h2 class="text-4xl font-extralight text-[#FFFFFF]">UP to 20% OFF</h2>
+              </div>
+                  <img class="h-60" src="./Assignment_03_Category_0002/c2-assets/dawat-mock-up.png" alt="dawat-mock-up.png">
+           </div>
+      <!-- Offers Section One End Here -->
+       
+
+      <!-- Offers Section Two Start Here -->
+           <div class="flex justify-between items-center w-[400px] h-[344px] rounded-3xl bg-[#102861] sm:gap-y-4-x-4"> 
+                <div class="space-y-5 ml-4">
+                    <img src="./Assignment_03_Category_0002/c2-assets/india-gate-logo.png" alt="india-gate-logo.png">
+                    <button class="btn btn-primary bg-[#63B76D] px-8">World’s No.1 Rice</button>
+                    <h2 class="text-2xl font-bold text-[#FFFFFF]">UP to 40% OFF</h2>
+                </div>
+              <img class="h-60" src="./Assignment_03_Category_0002/c2-assets/india-gate-mock-up.png" alt="india-gate-mock-up.png">
+           </div>
+      <!-- Offers Section Two End Here -->
+    </div>
+    </section>
+     <!-- Offer Card Section End Here -->
+  </main>
+
+  <footer class="bg-[#179800]">
+    <!-- Footer Start Here Section -->
+   <section class="w-full h-[658px] bg-[#179800]">
+        <!-- News Section Start Here -->
+   <section class="max-w-6xl mx-auto mt-[330px]  relative -top-48 ">
+    <!-- News Full Section Start Here -->
+    <div class="max-w-6xl mx-auto bg-[#EFEBE3]  flex flex-wrap justify-between">
+         <div class="full-juri flex justify-center items-center">
+            <img src="./Assignment_03_Category_0002/c2-assets/vegetable-busket.png" alt="">
+         </div>
+         <div class="fuler-tittle lg:space-y-10 space-y-4 text-center lg:text-left">
+            <h2 class="mt-16 text-4xl font-bold"> Get Grocery News!</h2>
+            <p class="text-[#111111] text-xl">Exclusive training tips, ticks, product deals and more.</p>
+            <input
+            type="email"
+            placeholder="Enter email...."
+            class=" input input-secondary w-96 max-w-lg border-none mr-4" /> <br>
+            <a class="btn btn-accent border-none text-lg text-[#FFFFFF] bg-[#2ae0aa]">Subscribe</a>
+         </div>
+    </div>
+    <!-- This is a footer style part -->
+   <div class="max-w-6xl mx-auto h-[147.12px] lg:flex lg:justify-between">
+     <div class="w-[426px]">
+        <img src="./Assignment_03_Category_0002/c2-assets/logo-footer.png" alt="">
+        <p>Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+     </div>
+     <div class="w-full bg-[#179800]">
+        <span>Product</span><br>
+        <span>Services</span><br>
+        <span>Contact us</span><br>
+     </div>
+     <div class="flex flex-col  w-full bg-[#179800]">
+      <h2>Follow Us</h2>
+      <div>
+        <span><i class="fa-brands fa-facebook"></i></span>
+        <span><i class="fa-brands fa-instagram"></i></span>
+        <span><i class="fa-brands fa-linkedin"></i></span>
+        <span><i class="fa-brands fa-youtube"></i></span>
+      </div>
+     </div>
+   </div>
+<!-- News Full Section End Here -->
+</section>
+<!-- News Section Start Here -->
+</section>
+<!-- Footer Start Here Section -->
+  </footer>
+ 
+</body>
+</html>
