@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I miss you</title>
+    <title>Vegetable-village</title>
     <link rel="stylesheet" href="style/style.css">
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <!-- Font awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- DaisyUl Link Here -->
@@ -23,10 +27,8 @@
         }
       }
     </script>
-    
-
 </head>
-<body>
+<body class="sora-font">
 <!-- Header Section Is Start Here -->
   <header class="w-100% bg-gradient-to-r from-[#FFFFFF]  to-[#EFEBE3]">
       <nav class="bg-[#FFF9F4]">
@@ -53,9 +55,7 @@
                   class="hidden md:block border border-[#179800] border-solid px-4 py-2 rounded-lg hover:bg-[#179800] hover:text-white">Login</button>
                 <button class="hidden md:block bg-[#179800] text-white px-4 py-2 rounded-lg">Register</button>
                 <button class="md:hidden text-[#179800]">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-                  </svg>
+                   <span><i class="fa-solid fa-bars"></i></span>
                 </button>
               </div>
             </div>
@@ -64,10 +64,10 @@
   <!-- Banner Section Part Start Here -->
     <section class="max-w-6xl mx-auto  mt-16 animations">
       <div class="flex flex-col justify-center items-center text-center space-y-10">
-         <h2 class="lg:text-6xl font-extrabold text-[#414040] md:text-5xl sm:text-4xl">Freshness <span class="text-[#179800]">You Can<br>
+         <h2 class="lg:text-6xl font-extrabold text-[#414040] text-4xl md:text-5xl sm:text-4xl animate-pulse">Freshness <span class="text-[#179800] animate-pulse">You Can<br>
          Count</span> On,Prices You’ll Love!</h2>
-         <p class=" text-[#707070]">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered <br>every day! in some form, by injected humour.</p>
-         <img src="./assets/c2-assets/hero-vegetables.png" alt="hero-vegetables.png">
+         <p class=" text-[#179800] animate-pulse">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered <br>every day! in some form, by injected humour.</p>
+         <img class="animate-spin" src="./assets/c2-assets/hero-vegetables.png" alt="hero-vegetables.png">
       </div>
     </section>
   <!-- Banner Section Part End Here -->
@@ -76,6 +76,27 @@
 
 <!-- The Main Section Start Here -->
  <main>
+<!-- Extra Section Start Here -->
+<section class="max-w-6xl mx-auto mt-32 flex justify-center h-[650px]">
+      <!-- Banner Images Is Here -->
+              <img class="relative" src="./assets/c2-assets/SmallBoys.png" alt="">
+                <div class=" absolute w-2xl mt-32 space-y-8 text-center">
+                     <h1 class="text-5xl font-extrabold text-[#FFFFFF]">Which fruit will you take?<br> <span class="text-center"> Write it here.</span></h1>
+                     <p class="text-[#FFFFFF] font-extrabold">Here, you will find reasonably priced, fresh fruits <br> 
+                        and vegetables. You can take them without any worries. <br>
+                         The price is low, and the quality is good.
+                     </p>
+        <!-- Banner Input Part -->
+                  <div class="space-y-8">
+                     <input
+                     type="text"
+                     placeholder="Search your services"
+                     class=" input input-secondary w-full max-w-lg border-none mr-4" />
+                     <a class="btn btn-secondary border-none bg-[#179800] text-lg font-semibold">Search</a>
+                  </div>   
+                </div>
+</section>
+<!-- Extra Section End Here -->
 
 <!-- Services Card Section Start Here -->
  <section class="max-w-6xl mx-auto mt-[140px] space-y-12">
@@ -157,7 +178,7 @@
       <!-- Small Card Number One Here -->
        <div class="w-40 h-24 lg:w-56 lg:h-32 xl:w-56 xl:h-32 flex rounded-lg bg-white items-center p-4 lg:p-1 xl:p-1 space-x-4">
                   <div class="w-16 h-16 lg:h-28 lg:w-28 xl:w-28 xl-h-28 pt-4 lg:pl-6 xl:pl-6">
-                        <img src="./assets/vegetable-icons/tomatos.png" alt="">
+                        <img src="./assets/vegetable-icons/peyaz.png" alt="">
                   </div>
             <div class="sm-img-des">
                   <div class="w-4 h-4 flex">
@@ -185,7 +206,7 @@
       <!-- Small Card Number Tree Here -->
        <div class="w-40 h-24 lg:w-56 lg:h-32 xl:w-56 xl:h-32 flex rounded-lg bg-white items-center p-4 lg:p-1 xl:p-1 space-x-4">
                   <div class="w-16 h-16 lg:h-28 lg:w-28 xl:w-28 xl-h-28 pt-4 lg:pl-6 xl:pl-6">
-                        <img src="./assets/vegetable-icons/tomatos.png" alt="">
+                        <img src="./assets/vegetable-icons/alu.png" alt="">
                   </div>
             <div class="sm-img-des">
                   <div class="w-4 h-4 flex">
@@ -199,7 +220,7 @@
       <!-- Small Card Number Four Here -->
        <div class="w-40 h-24 lg:w-56 lg:h-32 xl:w-56 xl:h-32 flex rounded-lg bg-white items-center p-4 lg:p-1 xl:p-1 space-x-4">
                   <div class="w-16 h-16 lg:h-28 lg:w-28 xl:w-28 xl-h-28 pt-4 lg:pl-6 xl:pl-6">
-                        <img src="./assets/vegetable-icons/tomatos.png" alt="">
+                        <img src="./assets/vegetable-icons/alu.png" alt="">
                   </div>
             <div class="sm-img-des">
                   <div class="w-4 h-4 flex">
@@ -213,7 +234,7 @@
       <!-- Small Card Number Five Here -->
        <div class="w-40 h-24 lg:w-56 lg:h-32 xl:w-56 xl:h-32 flex rounded-lg bg-white items-center p-4 lg:p-1 xl:p-1 space-x-4">
                   <div class="w-16 h-16 lg:h-28 lg:w-28 xl:w-28 xl-h-28 pt-4 lg:pl-6 xl:pl-6">
-                        <img src="./assets/vegetable-icons/tomatos.png" alt="">
+                        <img src="./assets/vegetable-icons/peyaz.png" alt="">
                   </div>
             <div class="sm-img-des">
                   <div class="w-4 h-4 flex">
@@ -241,7 +262,7 @@
       <!-- Small Card Number Seven Here -->
        <div class="w-40 h-24 lg:w-56 lg:h-32 xl:w-56 xl:h-32 flex rounded-lg bg-white items-center p-4 lg:p-1 xl:p-1 space-x-4">
                   <div class="w-16 h-16 lg:h-28 lg:w-28 xl:w-28 xl-h-28 pt-4 lg:pl-6 xl:pl-6">
-                        <img src="./assets/vegetable-icons/tomatos.png" alt="">
+                        <img src="./assets/vegetable-icons/peyaz.png" alt="">
                   </div>
             <div class="sm-img-des">
                   <div class="w-4 h-4 flex">
@@ -255,7 +276,7 @@
       <!-- Small Card Number Eight Here -->
        <div class="w-40 h-24 lg:w-56 lg:h-32 xl:w-56 xl:h-32 flex rounded-lg bg-white items-center p-4 lg:p-1 xl:p-1 space-x-4">
                   <div class="w-16 h-16 lg:h-28 lg:w-28 xl:w-28 xl-h-28 pt-4 lg:pl-6 xl:pl-6">
-                        <img src="./assets/vegetable-icons/tomatos.png" alt="">
+                        <img src="./assets/vegetable-icons/alu.png" alt="">
                   </div>
             <div class="sm-img-des">
                   <div class="w-4 h-4 flex">
@@ -292,7 +313,7 @@
 <!-- Offer Card Section Start Here -->
   <section class="max-w-6xl mx-auto mt-[140px] space-y-12 pb-56">
         <!-- Offers Title Part -->
-          <h2 class="max-w-6xl mx-auto text-4xl font-semibold text-[#179800] mt-[90px]">Services</h2>  
+          <h2 class="max-w-6xl mx-auto text-4xl font-semibold text-[#179800] mt-[90px]">Arrival & Offers</h2>  
     <div class="max-w-6xl mx-auto h-96 mt-36 flex justify-between items-center flex-wrap space-y-4">
         <!-- Offers Section One Start Here -->
            <div class="w-[740px] h-[344px] bg-[#115414] rounded-3xl  flex justify-between items-center space-y-10 mt-4">
@@ -309,41 +330,17 @@
       <!-- Offers Section Two Start Here -->
            <div class="flex justify-between items-center w-[400px] h-[344px] rounded-3xl bg-[#102861] sm:gap-y-4-x-4"> 
                 <div class="space-y-5 ml-4">
-                    <img src="/B11-A3-Living-Lab/Assignment_03_Category_0002/c2-assets/india-gate-logo.png" alt="india-gate-logo.png">
+                    <img src="./assets/c2-assets/india-gate-logo.png" alt="india-gate-logo.png">
                     <button class="btn btn-primary bg-[#63B76D] px-8">World’s No.1 Rice</button>
                     <h2 class="text-2xl font-bold text-[#FFFFFF]">UP to 40% OFF</h2>
                 </div>
-              <img class="h-60" src="/B11-A3-Living-Lab/Assignment_03_Category_0002/c2-assets/india-gate-mock-up.png" alt="india-gate-mock-up.png">
+              <img class="h-60" src="./assets/c2-assets/india-gate-mock-up.png" alt="india-gate-mock-up.png">
            </div>
       <!-- Offers Section Two End Here -->
     </div>
   </section>
 <!-- Offer Card Section End Here -->
-<!-- Banner Section Part Start Here -->
-<section class="max-w-6xl mx-auto mt-32 flex justify-center h-[650px]">
-      <!-- Banner Images Is Here -->
-              <img class="relative" src="./assets/c2-assets/SmallBoys.png" alt="">
-                <div class=" absolute w-2xl mt-32 space-y-8 text-center">
-                     <h1 class="text-5xl font-extrabold text-[#FFFFFF]">Which fruit will you take?<br> <span class="text-center"> Write it here.</span></h1>
-                     <p class="text-[#E7E7E7]">There are many variations of passages of Lorem Ipsum available, but the majority <br>
-                     have suffered alteration in some form, by injected humour.
-                     </p>
-        <!-- Banner Input Part -->
-                  <div class="space-y-8">
-                     <input
-                     type="text"
-                     placeholder="Search your services"
-                     class=" input input-secondary w-full max-w-lg border-none mr-4" />
-                     <a class="btn btn-secondary border-none bg-[#B68C5A] text-lg font-semibold">Search</a>
-                  </div>   
-                </div>
-</section>
-      <!-- Banner Section Part End Here -->
-<!-- Extra Section Start Here -->
-<Section>
 
-</Section>
-<!-- Extra Section End Here -->
  </main>
 <!-- The Main Section End Here -->
 
@@ -385,8 +382,8 @@
         <!-- Footer Left End Here -->
         <!-- Footer Center Part Start Here -->
            <div class="footer-middle mt-6 sm:mt-0 sm:w-[25%] lg:pt-24 lg:pr-6">
-                 <p>Find a pet</p> <br/>
-                 <p>Breeds</p>     <br/>
+                 <p>Product</p> <br/>
+                 <p>Services</p>     <br/>
                  <p>Contact us</p> <br />
            </div>
         <!-- Footer Center Part End Here -->
